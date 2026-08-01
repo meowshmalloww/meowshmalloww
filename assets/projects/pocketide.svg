@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="235" viewBox="0 0 580 235" role="img" aria-labelledby="title desc">
+  <title id="title">PocketIDE</title>
+  <desc id="desc">Android IDE with a fully local AI coding assistant.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9A866D"/><stop offset="1" stop-color="#B0A2B8"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="578" height="233" rx="18" fill="#121520" stroke="#3B3546" stroke-width="2"/>
+  <path fill="#292337" opacity="0.76" d="M392 0 H580 V168 C512 132 466 170 392 108 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M392 0 H580 V168 C512 132 466 170 392 108 Z;M362 0 H580 V142 C520 190 446 128 362 92 Z;M392 0 H580 V168 C512 132 466 170 392 108 Z"/>
+  </path>
+  <text x="514" y="82" text-anchor="middle" fill="none" stroke="#8E7E95" stroke-opacity="0.4" font-family="Georgia, serif" font-size="92" font-weight="700">02</text>
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect x="28" y="25" width="96" height="25" rx="6" fill="#282331" stroke="#9A866D" stroke-opacity="0.7"/>
+    <text x="76" y="42" text-anchor="middle" fill="#D4C3AE" font-size="10" font-weight="700" letter-spacing="1.4">MOBILE AI</text>
+    <text x="28" y="91" fill="#F4F0E8" font-family="Georgia, serif" font-size="34" font-weight="700">PocketIDE</text>
+    <text x="28" y="124" fill="#BDB6C4" font-size="14">Android IDE with a fully local AI coding assistant.</text>
+    <text x="28" y="146" fill="#8E8798" font-size="13">Generates, runs, benchmarks, and repairs code on-device.</text>
+    <text x="28" y="179" fill="#C2AC91" font-size="10.5" font-weight="700" letter-spacing="1.25">KOTLIN · LLAMA.CPP · EXECUTORCH · ARM64</text>
+    <rect x="28" y="198" width="150" height="2.5" rx="1.25" fill="url(#accent)">
+      <animate attributeName="width" values="102;150;124;150;102" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="202" y="204" fill="#D5D0DA" font-size="10" font-weight="700" letter-spacing="1.3">OPEN REPOSITORY ↗</text>
+  </g>
+</svg>
+

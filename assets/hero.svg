@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Zhiyu Wen — Programmer and AI Systems Builder</title>
+  <desc id="desc">An animated editorial banner with matte flowing ribbons and geometric typography.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090E1A" />
+      <stop offset="0.55" stop-color="#111827" />
+      <stop offset="1" stop-color="#171426" />
+    </linearGradient>
+    <linearGradient id="ribbonA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#627991" />
+      <stop offset="0.52" stop-color="#A89AB8" />
+      <stop offset="1" stop-color="#D7BE9F" />
+    </linearGradient>
+    <linearGradient id="ribbonB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#26374C" />
+      <stop offset="1" stop-color="#766B88" />
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="388" rx="28" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="390" fill="url(#background)" />
+
+    <path fill="#1A2435" opacity="0.82" d="M760 -60 H1270 V250 C1080 186 924 210 760 116 Z">
+      <animate attributeName="d" dur="13s" repeatCount="indefinite"
+        values="M760 -60 H1270 V250 C1080 186 924 210 760 116 Z;
+                M720 -60 H1270 V226 C1090 264 920 174 720 132 Z;
+                M760 -60 H1270 V250 C1080 186 924 210 760 116 Z" />
+    </path>
+    <path fill="#2A2538" opacity="0.66" d="M876 -40 H1260 V318 C1110 242 1010 176 876 154 Z">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        values="M876 -40 H1260 V318 C1110 242 1010 176 876 154 Z;
+                M830 -40 H1260 V286 C1100 328 990 214 830 126 Z;
+                M876 -40 H1260 V318 C1110 242 1010 176 876 154 Z" />
+    </path>
+
+    <g transform="translate(990 192)" opacity="0.34">
+      <text x="0" y="0" text-anchor="middle" fill="none" stroke="#D7BE9F" stroke-width="1.2"
+        font-family="Georgia, 'Times New Roman', serif" font-size="186" font-weight="700" letter-spacing="-18">ZW</text>
+      <animateTransform attributeName="transform" type="rotate" values="-2 0 0;2 0 0;-2 0 0" dur="12s" repeatCount="indefinite" additive="sum" />
+    </g>
+
+    <path fill="url(#ribbonB)" opacity="0.38" d="M-80 330 C210 250 360 410 650 328 C860 268 1030 262 1280 330 L1280 430 L-80 430 Z">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M-80 330 C210 250 360 410 650 328 C860 268 1030 262 1280 330 L1280 430 L-80 430 Z;
+                M-80 310 C180 390 420 248 680 336 C920 416 1090 264 1280 304 L1280 430 L-80 430 Z;
+                M-80 330 C210 250 360 410 650 328 C860 268 1030 262 1280 330 L1280 430 L-80 430 Z" />
+    </path>
+    <path fill="url(#ribbonA)" opacity="0.58" d="M-100 354 C184 294 382 402 664 350 C914 304 1080 302 1300 346 L1300 390 L-100 390 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M-100 354 C184 294 382 402 664 350 C914 304 1080 302 1300 346 L1300 390 L-100 390 Z;
+                M-100 346 C164 402 402 294 674 354 C930 410 1100 300 1300 330 L1300 390 L-100 390 Z;
+                M-100 354 C184 294 382 402 664 350 C914 304 1080 302 1300 346 L1300 390 L-100 390 Z" />
+    </path>
+
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="72" y="66" fill="#8FA1B6" font-size="12" font-weight="700" letter-spacing="3.2">MEOWSHMALLOWW / PROGRAMMING · SYSTEMS · INTELLIGENCE</text>
+
+      <text x="68" y="178" fill="#F5F1E8" font-family="Georgia, 'Times New Roman', serif" font-size="79" font-weight="700" letter-spacing="-2">Zhiyu Wen</text>
+
+      <rect x="72" y="201" width="360" height="4" rx="2" fill="url(#ribbonA)">
+        <animate attributeName="width" values="240;360;300;360;240" dur="8s" repeatCount="indefinite" />
+      </rect>
+
+      <text x="72" y="247" fill="#D8DDE7" font-size="19" font-weight="600" letter-spacing="4">PROGRAMMER · AI SYSTEMS BUILDER</text>
+      <text x="72" y="286" fill="#8794A8" font-size="15">Grounded intelligence. Resilient systems. Spatial experiences.</text>
+
+      <g transform="translate(72 312)">
+        <rect width="86" height="32" rx="8" fill="#171E2D" stroke="#7F879B" stroke-opacity="0.72" />
+        <text x="43" y="21" text-anchor="middle" fill="#D7DCE5" font-size="11" font-weight="700" letter-spacing="1.2">HE / HIM</text>
+      </g>
+
+      <g transform="translate(170 312)">
+        <rect width="202" height="32" rx="8" fill="#211D2C" stroke="#A89AB8" stroke-opacity="0.68" />
+        <text x="101" y="21" text-anchor="middle" fill="#E4DCE9" font-size="11" font-weight="700" letter-spacing="1.15">SAN FRANCISCO, USA</text>
+      </g>
+
+      <g transform="translate(760 315)" fill="#B7C1CE" font-size="10.5" font-weight="700" letter-spacing="1.5">
+        <text x="0" y="0">DESKTOP AI</text>
+        <text x="124" y="0">MOBILE SYSTEMS</text>
+        <text x="270" y="0">SPATIAL COMPUTING</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="388" rx="28" fill="none" stroke="#69768A" stroke-opacity="0.48" stroke-width="2" />
+</svg>

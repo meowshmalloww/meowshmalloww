@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="235" viewBox="0 0 580 235" role="img" aria-labelledby="title desc">
+  <title id="title">ShowME</title>
+  <desc id="desc">Screen-aware visual lesson compiler for Windows.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6F879E"/><stop offset="1" stop-color="#A99BB5"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="578" height="233" rx="18" fill="#0E1624" stroke="#334155" stroke-width="2"/>
+  <path fill="#1B2A3E" opacity="0.72" d="M390 0 H580 V174 C516 144 458 162 390 112 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M390 0 H580 V174 C516 144 458 162 390 112 Z;M366 0 H580 V154 C508 184 448 134 366 98 Z;M390 0 H580 V174 C516 144 458 162 390 112 Z"/>
+  </path>
+  <text x="514" y="82" text-anchor="middle" fill="none" stroke="#71859A" stroke-opacity="0.42" font-family="Georgia, serif" font-size="92" font-weight="700">01</text>
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <rect x="28" y="25" width="106" height="25" rx="6" fill="#202C3D" stroke="#6F879E" stroke-opacity="0.7"/>
+    <text x="81" y="42" text-anchor="middle" fill="#B7C7D6" font-size="10" font-weight="700" letter-spacing="1.4">DESKTOP AI</text>
+    <text x="28" y="91" fill="#F4F0E8" font-family="Georgia, serif" font-size="34" font-weight="700">ShowME</text>
+    <text x="28" y="124" fill="#AEB9C7" font-size="14">Screen-aware visual lesson compiler for Windows.</text>
+    <text x="28" y="146" fill="#7E8DA1" font-size="13">Turns selected pixels into verified, animated explanations.</text>
+    <text x="28" y="179" fill="#A99BB5" font-size="10.5" font-weight="700" letter-spacing="1.25">ELECTRON 43 · REACT 19 · RUST · PYTHON</text>
+    <rect x="28" y="198" width="150" height="2.5" rx="1.25" fill="url(#accent)">
+      <animate attributeName="width" values="96;150;118;150;96" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <text x="202" y="204" fill="#CBD5E1" font-size="10" font-weight="700" letter-spacing="1.3">OPEN REPOSITORY ↗</text>
+  </g>
+</svg>
+

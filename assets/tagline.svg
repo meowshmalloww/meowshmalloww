@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-labelledby="title desc">
+  <title id="title">Zhiyu Wen's engineering focus</title>
+  <desc id="desc">Three statements transition gently in place.</desc>
+  <g text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="560" letter-spacing="0.35">
+    <text x="450" y="43" fill="#B9C4D1" opacity="0">I build AI tools that stay grounded.
+      <animate id="line1" attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="0s;line3.end" />
+      <animate attributeName="y" values="49;39;39;31" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="0s;line3.end" />
+    </text>
+    <text x="450" y="43" fill="#C3B8CC" opacity="0">I design offline systems for the moments networks fail.
+      <animate id="line2" attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="line1.end" />
+      <animate attributeName="y" values="49;39;39;31" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="line1.end" />
+    </text>
+    <text x="450" y="43" fill="#D4BEA4" opacity="0">I turn flat images and evidence into spatial experiences.
+      <animate id="line3" attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="line2.end" />
+      <animate attributeName="y" values="49;39;39;31" keyTimes="0;0.12;0.78;1" dur="3.8s" begin="line2.end" />
+    </text>
+  </g>
+</svg>
